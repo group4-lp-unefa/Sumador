@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>marreros woke inc</title>
+    <title>Proyecto HTML/CSS/Python</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.11.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.11.1/core.js"></script>
 </head>
 <body>
     <h1>Proyecto</h1>
@@ -16,14 +18,14 @@
             <h2>Sumador</h2>
             <h5>Coloque los valores que quiera sumar</h5>
             <div class="calculadora">
-                <input required placeholder="Ejemplo: 1" type="number">
-                <input required placeholder="Ejemplo: 2" type="number">
+                <input placeholder="Ejemplo: 1" type="number" id="primer-dato">
+                <input placeholder="Ejemplo: 2" type="number" id="segundo-dato">
             </div>
             <p>
                 Resultado: 
-                <span></span>
+                <span id="resultado"></span>
             </p>
-            <button type="submit">enviar</button>
+            <button type="submit">volver a sumar</button>
         </form>
     </div>
     <ul class="abajo">
@@ -31,6 +33,7 @@
         <li>Jose Escobar C.I:32.272.770</li>
         <li>Andruw Leon C.I:32.227.326</li>
         <li>Daniel Montilla C.I:32.914.247</li>
-     </ul>
+    </ul>
+    <script type="mpy" src="/sumador.py"></script>
 </body>
 </html>
